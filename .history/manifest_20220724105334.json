@@ -1,0 +1,15 @@
+{
+  "name": "Extensão para alterar pagina inicial",
+  "description": "Extensão que altera pagina inicial",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "chrome_settings_overrides": {
+    "homepage": "http://www.homepage.com"
+  }
+}
